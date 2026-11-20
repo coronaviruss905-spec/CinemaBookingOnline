@@ -1,0 +1,19 @@
+{
+  "name": "cinema-booking-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend API for Online Cinema Booking Demo using Microsoft SQL Server",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "msnodesqlv8": "^6.0.0",
+    "mssql": "^11.0.1"
+  }
+}
